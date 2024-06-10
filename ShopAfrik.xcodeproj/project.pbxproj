@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CF5CFEE82C178F95004C55D7 /* ShopAfrikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFEE72C178F95004C55D7 /* ShopAfrikApp.swift */; };
 		CF5CFEEA2C178F95004C55D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFEE92C178F95004C55D7 /* ContentView.swift */; };
-		CF5CFEEC2C178F95004C55D7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFEEB2C178F95004C55D7 /* Item.swift */; };
 		CF5CFEEE2C178F9A004C55D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5CFEED2C178F9A004C55D7 /* Assets.xcassets */; };
 		CF5CFEF12C178F9A004C55D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5CFEF02C178F9A004C55D7 /* Preview Assets.xcassets */; };
 		CF5CFEFB2C178F9B004C55D7 /* ShopAfrikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFEFA2C178F9B004C55D7 /* ShopAfrikTests.swift */; };
@@ -38,7 +37,6 @@
 		CF5CFEE42C178F95004C55D7 /* ShopAfrik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopAfrik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5CFEE72C178F95004C55D7 /* ShopAfrikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopAfrikApp.swift; sourceTree = "<group>"; };
 		CF5CFEE92C178F95004C55D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CF5CFEEB2C178F95004C55D7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CF5CFEED2C178F9A004C55D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF5CFEF02C178F9A004C55D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF5CFEF62C178F9B004C55D7 /* ShopAfrikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopAfrikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +96,6 @@
 			children = (
 				CF5CFEE72C178F95004C55D7 /* ShopAfrikApp.swift */,
 				CF5CFEE92C178F95004C55D7 /* ContentView.swift */,
-				CF5CFEEB2C178F95004C55D7 /* Item.swift */,
 				CF5CFEED2C178F9A004C55D7 /* Assets.xcassets */,
 				CF5CFEEF2C178F9A004C55D7 /* Preview Content */,
 			);
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF5CFEEA2C178F95004C55D7 /* ContentView.swift in Sources */,
-				CF5CFEEC2C178F95004C55D7 /* Item.swift in Sources */,
 				CF5CFEE82C178F95004C55D7 /* ShopAfrikApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -408,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -432,8 +428,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,8 +457,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
