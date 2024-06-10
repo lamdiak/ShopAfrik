@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF5CFEE82C178F95004C55D7 /* ShopAfrikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFEE72C178F95004C55D7 /* ShopAfrikApp.swift */; };
+		CF5CFEEA2C178F95004C55D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFEE92C178F95004C55D7 /* ContentView.swift */; };
+		CF5CFEEC2C178F95004C55D7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFEEB2C178F95004C55D7 /* Item.swift */; };
+		CF5CFEEE2C178F9A004C55D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5CFEED2C178F9A004C55D7 /* Assets.xcassets */; };
+		CF5CFEF12C178F9A004C55D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5CFEF02C178F9A004C55D7 /* Preview Assets.xcassets */; };
+		CF5CFEFB2C178F9B004C55D7 /* ShopAfrikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFEFA2C178F9B004C55D7 /* ShopAfrikTests.swift */; };
+		CF5CFF052C178F9B004C55D7 /* ShopAfrikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFF042C178F9B004C55D7 /* ShopAfrikUITests.swift */; };
+		CF5CFF072C178F9B004C55D7 /* ShopAfrikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CFF062C178F9B004C55D7 /* ShopAfrikUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF5CFEF72C178F9B004C55D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5CFEDC2C178F95004C55D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5CFEE32C178F95004C55D7;
+			remoteInfo = ShopAfrik;
+		};
+		CF5CFF012C178F9B004C55D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5CFEDC2C178F95004C55D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5CFEE32C178F95004C55D7;
+			remoteInfo = ShopAfrik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF5CFEE42C178F95004C55D7 /* ShopAfrik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopAfrik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5CFEE72C178F95004C55D7 /* ShopAfrikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopAfrikApp.swift; sourceTree = "<group>"; };
+		CF5CFEE92C178F95004C55D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF5CFEEB2C178F95004C55D7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CF5CFEED2C178F9A004C55D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5CFEF02C178F9A004C55D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF5CFEF62C178F9B004C55D7 /* ShopAfrikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopAfrikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5CFEFA2C178F9B004C55D7 /* ShopAfrikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopAfrikTests.swift; sourceTree = "<group>"; };
+		CF5CFF002C178F9B004C55D7 /* ShopAfrikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopAfrikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5CFF042C178F9B004C55D7 /* ShopAfrikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopAfrikUITests.swift; sourceTree = "<group>"; };
+		CF5CFF062C178F9B004C55D7 /* ShopAfrikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopAfrikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF5CFEE12C178F95004C55D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5CFEF32C178F9B004C55D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5CFEFD2C178F9B004C55D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF5CFEDB2C178F94004C55D7 = {
+			isa = PBXGroup;
+			children = (
+				CF5CFEE62C178F95004C55D7 /* ShopAfrik */,
+				CF5CFEF92C178F9B004C55D7 /* ShopAfrikTests */,
+				CF5CFF032C178F9B004C55D7 /* ShopAfrikUITests */,
+				CF5CFEE52C178F95004C55D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5CFEE52C178F95004C55D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5CFEE42C178F95004C55D7 /* ShopAfrik.app */,
+				CF5CFEF62C178F9B004C55D7 /* ShopAfrikTests.xctest */,
+				CF5CFF002C178F9B004C55D7 /* ShopAfrikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF5CFEE62C178F95004C55D7 /* ShopAfrik */ = {
+			isa = PBXGroup;
+			children = (
+				CF5CFEE72C178F95004C55D7 /* ShopAfrikApp.swift */,
+				CF5CFEE92C178F95004C55D7 /* ContentView.swift */,
+				CF5CFEEB2C178F95004C55D7 /* Item.swift */,
+				CF5CFEED2C178F9A004C55D7 /* Assets.xcassets */,
+				CF5CFEEF2C178F9A004C55D7 /* Preview Content */,
+			);
+			path = ShopAfrik;
+			sourceTree = "<group>";
+		};
+		CF5CFEEF2C178F9A004C55D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF5CFEF02C178F9A004C55D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF5CFEF92C178F9B004C55D7 /* ShopAfrikTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5CFEFA2C178F9B004C55D7 /* ShopAfrikTests.swift */,
+			);
+			path = ShopAfrikTests;
+			sourceTree = "<group>";
+		};
+		CF5CFF032C178F9B004C55D7 /* ShopAfrikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5CFF042C178F9B004C55D7 /* ShopAfrikUITests.swift */,
+				CF5CFF062C178F9B004C55D7 /* ShopAfrikUITestsLaunchTests.swift */,
+			);
+			path = ShopAfrikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF5CFEE32C178F95004C55D7 /* ShopAfrik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5CFF0A2C178F9B004C55D7 /* Build configuration list for PBXNativeTarget "ShopAfrik" */;
+			buildPhases = (
+				CF5CFEE02C178F95004C55D7 /* Sources */,
+				CF5CFEE12C178F95004C55D7 /* Frameworks */,
+				CF5CFEE22C178F95004C55D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopAfrik;
+			productName = ShopAfrik;
+			productReference = CF5CFEE42C178F95004C55D7 /* ShopAfrik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF5CFEF52C178F9B004C55D7 /* ShopAfrikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5CFF0D2C178F9B004C55D7 /* Build configuration list for PBXNativeTarget "ShopAfrikTests" */;
+			buildPhases = (
+				CF5CFEF22C178F9B004C55D7 /* Sources */,
+				CF5CFEF32C178F9B004C55D7 /* Frameworks */,
+				CF5CFEF42C178F9B004C55D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5CFEF82C178F9B004C55D7 /* PBXTargetDependency */,
+			);
+			name = ShopAfrikTests;
+			productName = ShopAfrikTests;
+			productReference = CF5CFEF62C178F9B004C55D7 /* ShopAfrikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF5CFEFF2C178F9B004C55D7 /* ShopAfrikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5CFF102C178F9B004C55D7 /* Build configuration list for PBXNativeTarget "ShopAfrikUITests" */;
+			buildPhases = (
+				CF5CFEFC2C178F9B004C55D7 /* Sources */,
+				CF5CFEFD2C178F9B004C55D7 /* Frameworks */,
+				CF5CFEFE2C178F9B004C55D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5CFF022C178F9B004C55D7 /* PBXTargetDependency */,
+			);
+			name = ShopAfrikUITests;
+			productName = ShopAfrikUITests;
+			productReference = CF5CFF002C178F9B004C55D7 /* ShopAfrikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF5CFEDC2C178F95004C55D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CF5CFEE32C178F95004C55D7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CF5CFEF52C178F9B004C55D7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF5CFEE32C178F95004C55D7;
+					};
+					CF5CFEFF2C178F9B004C55D7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF5CFEE32C178F95004C55D7;
+					};
+				};
+			};
+			buildConfigurationList = CF5CFEDF2C178F95004C55D7 /* Build configuration list for PBXProject "ShopAfrik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5CFEDB2C178F94004C55D7;
+			productRefGroup = CF5CFEE52C178F95004C55D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5CFEE32C178F95004C55D7 /* ShopAfrik */,
+				CF5CFEF52C178F9B004C55D7 /* ShopAfrikTests */,
+				CF5CFEFF2C178F9B004C55D7 /* ShopAfrikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF5CFEE22C178F95004C55D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5CFEF12C178F9A004C55D7 /* Preview Assets.xcassets in Resources */,
+				CF5CFEEE2C178F9A004C55D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5CFEF42C178F9B004C55D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5CFEFE2C178F9B004C55D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF5CFEE02C178F95004C55D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5CFEEA2C178F95004C55D7 /* ContentView.swift in Sources */,
+				CF5CFEEC2C178F95004C55D7 /* Item.swift in Sources */,
+				CF5CFEE82C178F95004C55D7 /* ShopAfrikApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5CFEF22C178F9B004C55D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5CFEFB2C178F9B004C55D7 /* ShopAfrikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5CFEFC2C178F9B004C55D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5CFF072C178F9B004C55D7 /* ShopAfrikUITestsLaunchTests.swift in Sources */,
+				CF5CFF052C178F9B004C55D7 /* ShopAfrikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF5CFEF82C178F9B004C55D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5CFEE32C178F95004C55D7 /* ShopAfrik */;
+			targetProxy = CF5CFEF72C178F9B004C55D7 /* PBXContainerItemProxy */;
+		};
+		CF5CFF022C178F9B004C55D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5CFEE32C178F95004C55D7 /* ShopAfrik */;
+			targetProxy = CF5CFF012C178F9B004C55D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF5CFF082C178F9B004C55D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF5CFF092C178F9B004C55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF5CFF0B2C178F9B004C55D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopAfrik/Preview Content\"";
+				DEVELOPMENT_TEAM = VPDX5X83Q9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.kamchaconsulting.ShopAfrik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF5CFF0C2C178F9B004C55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShopAfrik/Preview Content\"";
+				DEVELOPMENT_TEAM = VPDX5X83Q9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.kamchaconsulting.ShopAfrik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF5CFF0E2C178F9B004C55D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPDX5X83Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.kamchaconsulting.ShopAfrikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopAfrik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShopAfrik";
+			};
+			name = Debug;
+		};
+		CF5CFF0F2C178F9B004C55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPDX5X83Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.kamchaconsulting.ShopAfrikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopAfrik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShopAfrik";
+			};
+			name = Release;
+		};
+		CF5CFF112C178F9B004C55D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPDX5X83Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.kamchaconsulting.ShopAfrikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopAfrik;
+			};
+			name = Debug;
+		};
+		CF5CFF122C178F9B004C55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPDX5X83Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.kamchaconsulting.ShopAfrikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShopAfrik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF5CFEDF2C178F95004C55D7 /* Build configuration list for PBXProject "ShopAfrik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5CFF082C178F9B004C55D7 /* Debug */,
+				CF5CFF092C178F9B004C55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5CFF0A2C178F9B004C55D7 /* Build configuration list for PBXNativeTarget "ShopAfrik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5CFF0B2C178F9B004C55D7 /* Debug */,
+				CF5CFF0C2C178F9B004C55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5CFF0D2C178F9B004C55D7 /* Build configuration list for PBXNativeTarget "ShopAfrikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5CFF0E2C178F9B004C55D7 /* Debug */,
+				CF5CFF0F2C178F9B004C55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5CFF102C178F9B004C55D7 /* Build configuration list for PBXNativeTarget "ShopAfrikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5CFF112C178F9B004C55D7 /* Debug */,
+				CF5CFF122C178F9B004C55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF5CFEDC2C178F95004C55D7 /* Project object */;
+}
